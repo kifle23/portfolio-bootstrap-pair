@@ -555,7 +555,7 @@ textarea::placeholder {
   gap: 18px;
 }
 
-.btn-primary{
+.btn-primary {
   background: #ff6b00 !important;
   color: #fff !important;
   font-weight: bold !important;

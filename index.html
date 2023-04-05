@@ -314,35 +314,68 @@
           </div>
         </section>
         <section id="contact-detail">
-          <div class="contact-wrapper">
-            <div>
-              <h2 class="contact-header">
-                I'm always interested in hearing about new projects, so if you'd
-                like to chat please get in touch.
-              </h2>
+          <div class="row mb-5">
+            <div class="col-1"></div>
+            <div class="col-4 p-5 justify-content-center">
+              <p class="h2 mt-4">
+                <strong>
+                  I'm always interested in hearing about new projects, so if
+                  you'd like to chat please get in touch.</strong
+                >
+              </p>
             </div>
-            <form action="https://formspree.io/f/mdovlqop" method="POST">
-              <label for="fullName" hidden>Full Name</label>
-              <input
-                type="text"
-                id="form-name"
-                name="fullName"
-                placeholder="Full name"
-                maxlength="30"
-                required
-              />
-              <label for="email" hidden>Email</label>
-              <input type="email" name="email" placeholder="Email" required />
-              <label for="message" hidden>Message</label>
-              <textarea
-                name="message"
-                id="form-message"
-                placeholder="Write me something..."
-                maxlength="500"
-                required
-              ></textarea>
-              <div class="btn btn-primary">See project</div>
-            </form>
+            <div class="col-6 p-5">
+              <form action="#" method="post">
+                <div class="row">
+                  <div class="col mb-3 mt-3">
+                    <label for="first-name" class="form-label d-none"
+                      >First Name</label
+                    >
+                    <input
+                      type="text"
+                      id="first-name"
+                      name="first-name"
+                      class="form-control rounded-0 shadow-none border-start-0 border-end-0 border-top-0"
+                      maxlength="15"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col mb-3 mt-3">
+                    <label for="last-name" class="form-label d-none"
+                      >First Name</label
+                    >
+                    <input
+                      type="text"
+                      id="last-name"
+                      name="last-name"
+                      class="form-control rounded-0 shadow-none border-start-0 border-end-0 border-top-0"
+                      maxlength="15"
+                      placeholder="Last name"
+                    />
+                  </div>
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label d-none">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control rounded-0 shadow-none border-start-0 border-end-0 border-top-0"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="message" class="form-label"></label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="5"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <div class="btn btn-primary">See project</div>
+              </form>
+            </div>
           </div>
         </section>
         <section id="footer">
